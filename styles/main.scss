@@ -3,6 +3,7 @@
 @import "./container";
 @import "./main-heading";
 @import "./animations";
+@import "./button";
 
 
 
@@ -39,3 +40,6 @@ body{
 
 // Skills
 @import "./Skills/skills";
+
+// Projects
+@import "./Projects/projects";

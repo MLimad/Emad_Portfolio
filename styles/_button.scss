@@ -1,0 +1,14 @@
+ .more{
+                width: fit-content;
+                background-color: $alt-dark-color;
+                padding: 15px 35px;
+                display: block;
+                margin: 20px auto;
+                color: $alt-light-color;
+                border-radius: 3px;
+                transition: 0.4s linear;
+                &:hover{
+                    background-color: $emphasis-color;
+                    color: $alt-light-color;
+                }
+}

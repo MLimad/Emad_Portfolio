@@ -4,15 +4,15 @@
 
     &::before{
         content: "";
-        width: 780px;
+        width: 571px;
         position: absolute;
         height: 100%;
-        background-color:$alt-dark-color;
+        background-color: #363B44;
         top: 0;
-        right: 0;
+        right: -202px;
         z-index: -1;
         opacity: 0.5;
-        transform:skewY(-60deg);
+        transform: skewX(-11deg);
 
     }
     &::after{
