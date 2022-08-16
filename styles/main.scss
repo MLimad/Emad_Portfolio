@@ -1,0 +1,16 @@
+@import "./colors";
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: $dark-color;
+    color: $alt-light-color;
+}
+
+span{
+    color: $emphasis-color;
+}

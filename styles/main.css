@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #1C212D;
+  color: #EFEFEF;
+}
+
+span {
+  color: #308D45;
+}/*# sourceMappingURL=main.css.map */
