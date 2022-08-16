@@ -431,7 +431,7 @@ header .container nav ul li:hover {
   background-color: #363B44;
 }
 header .container nav ul li:hover a, header .container nav ul li:hover i {
-  color: #308D45;
+  color: #EFEFEF;
 }
 header .container nav ul li:hover::before {
   width: 100%;
@@ -439,11 +439,11 @@ header .container nav ul li:hover::before {
 header .container nav ul li::before {
   content: "";
   width: 0%;
-  height: 4px;
+  height: 2px;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #308D45;
+  background-color: #EFEFEF;
   transition: 0.3s linear;
 }
 header .container nav ul li a {
@@ -457,7 +457,7 @@ header .container nav ul li a {
 }
 .landing::before {
   content: "";
-  width: 25%;
+  width: 780px;
   position: absolute;
   height: 100%;
   background-color: #363B44;
@@ -465,6 +465,7 @@ header .container nav ul li a {
   right: 0;
   z-index: -1;
   opacity: 0.5;
+  transform: skewY(-60deg);
 }
 .landing::after {
   content: "</>";
@@ -473,7 +474,7 @@ header .container nav ul li a {
   left: 0;
   bottom: 0;
   z-index: -1;
-  font-size: 10rem;
+  font-size: 15rem;
   font-weight: bold;
   opacity: 0.2;
 }

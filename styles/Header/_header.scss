@@ -38,7 +38,7 @@ header{
                         background-color: $alt-dark-color;
                     }
                     &:hover a,&:hover i{
-                        color: $emphasis-color;
+                        color: $alt-light-color;
                     }
                     &:hover::before{
                         width: 100%;
@@ -46,11 +46,11 @@ header{
                     &::before{
                         content:"";
                         width: 0%;
-                        height: 4px;
+                        height: 2px;
                         position: absolute;
                         top: 0;
                         left: 0;
-                        background-color: $emphasis-color;
+                        background-color: $alt-light-color;
                         transition: 0.3s linear;
                     }
                     a{

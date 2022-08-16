@@ -4,7 +4,7 @@
 
     &::before{
         content: "";
-        width: 25%;
+        width: 780px;
         position: absolute;
         height: 100%;
         background-color:$alt-dark-color;
@@ -12,6 +12,7 @@
         right: 0;
         z-index: -1;
         opacity: 0.5;
+        transform:skewY(-60deg);
 
     }
     &::after{
@@ -21,7 +22,7 @@
         left: 0;
         bottom: 0;
         z-index: -1;
-        font-size: 10rem;
+        font-size: 15rem;
         font-weight: bold;
         opacity: 0.2;
     }
