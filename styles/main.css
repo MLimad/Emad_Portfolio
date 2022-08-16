@@ -540,6 +540,7 @@ header .container nav ul li a {
 }
 .about .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .about .container img {
@@ -551,10 +552,10 @@ header .container nav ul li a {
   position: relative;
 }
 .about .container .text::before {
-  content: "Who?";
+  content: "??";
   color: #363B44;
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
   z-index: -1;
   font-size: 10rem;
@@ -591,4 +592,69 @@ header .container nav ul li a {
 }
 .about .container .text .media li a:hover {
   color: #EFEFEF;
+}
+
+.skills {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.skills:hover .main-heading {
+  color: #EFEFEF;
+}
+.skills .my-skill {
+  max-width: 600px;
+  text-align: center;
+  margin: 30px auto;
+  line-height: 1.8;
+  color: #00B3B8;
+}
+.skills .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+.skills .container .box {
+  padding: 30px;
+  background-color: #363B44;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  counter-increment: skills;
+  z-index: 1;
+}
+.skills .container .box:hover::before {
+  width: 100%;
+}
+.skills .container .box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0px;
+  height: 2px;
+  transform: translateX(-50%);
+  background-color: #EFEFEF;
+  transition: 0.3s linear;
+}
+.skills .container .box::after {
+  content: counter(skills);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #1C212D;
+  font-size: 15rem;
+  font-weight: bold;
+  opacity: 0.2;
+  z-index: -1;
+}
+.skills .container .box h3 {
+  margin: 10px auto 20px;
+  font-size: 2rem;
+}
+.skills .container .box ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.skills .container .box ul li {
+  font-size: 4rem;
 }/*# sourceMappingURL=main.css.map */
