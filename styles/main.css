@@ -330,11 +330,51 @@ template {
   }
 }
 
+.main-heading {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 30px auto;
+  color: #363B44;
+  font-size: 5rem;
+  transition: color 0.3s linear;
+}
+.main-heading:hover {
+  color: #EFEFEF;
+}
+
+@-webkit-keyframes up_down {
+  0% {
+    transform: translateY(20%);
+  }
+  50% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(20%);
+  }
+}
+
+@keyframes up_down {
+  0% {
+    transform: translateY(20%);
+  }
+  50% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(20%);
+  }
+}
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -481,6 +521,12 @@ header .container nav ul li a {
   font-weight: bold;
   margin-right: 10px;
   display: block;
+  -webkit-animation: up_down 0.8s linear infinite;
+          animation: up_down 0.8s linear infinite;
+  transition: color 0.4s linear;
+}
+.landing .container .text .arrow-down a:hover {
+  color: #EFEFEF;
 }
 .landing .container .img-profile {
   max-width: 500px;

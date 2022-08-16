@@ -71,6 +71,11 @@
                     font-weight: bold;
                     margin-right: 10px;
                     display: block;
+                    animation:  up_down  0.8s linear infinite;
+                    transition: color 0.4s linear;
+                    &:hover{
+                        color: $alt-light-color;
+                    }
                 }
             }
             

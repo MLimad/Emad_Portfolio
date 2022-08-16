@@ -1,0 +1,11 @@
+.main-heading{
+    width: fit-content;
+    margin: 30px auto;
+    color: $alt-dark-color;
+    font-size: 5rem;
+    transition: color 0.3s linear;
+    &:hover{
+        color: $alt-light-color;
+    }
+    
+}
