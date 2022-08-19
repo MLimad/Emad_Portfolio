@@ -363,7 +363,7 @@ template {
     transform: translateY(20%);
   }
 }
-.more {
+.main-btn {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -375,7 +375,7 @@ template {
   border-radius: 3px;
   transition: 0.4s linear;
 }
-.more:hover {
+.main-btn:hover {
   background-color: #308D45;
   color: #EFEFEF;
 }
@@ -468,6 +468,7 @@ header .container nav ul li a {
 .landing {
   position: relative;
   overflow: hidden;
+  border-bottom: 1px solid #363B44;
 }
 .landing::before {
   content: "";
@@ -614,6 +615,7 @@ header .container nav ul li a {
 .skills {
   padding-top: 80px;
   padding-bottom: 80px;
+  border-top: 1px solid #363B44;
 }
 .skills:hover .main-heading {
   color: #EFEFEF;
@@ -684,6 +686,7 @@ header .container nav ul li a {
 .projects {
   padding-top: 80px;
   padding-bottom: 80px;
+  border-top: 1px solid #363B44;
 }
 .projects:hover .main-heading {
   color: #EFEFEF;
@@ -703,4 +706,82 @@ header .container nav ul li a {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.contact {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-top: 1px solid #363B44;
+  position: relative;
+}
+.contact::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../../images/map.png);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+.contact:hover .main-heading {
+  color: #EFEFEF;
+}
+.contact .container {
+  display: flex;
+  justify-content: space-between;
+}
+.contact .container .text h1 {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-bottom: 10px;
+}
+.contact .container .text h1::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 80px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #EFEFEF;
+}
+.contact .container .text p {
+  max-width: 400px;
+  line-height: 1.7;
+  color: #00B3B8;
+  margin: 15px 0;
+}
+.contact .container .text .address li {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+}
+.contact .container .text .address li i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+.contact .container .form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact .container .form form .inputs {
+  background-color: #363B44;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #00B3B8;
+  padding: 10px;
+  color: #EFEFEF;
+}
+.contact .container .form form input[type=submit] {
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
