@@ -784,4 +784,72 @@ header .container nav ul li a {
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+footer {
+  background-color: #363B44;
+  padding: 20px 0;
+  position: relative;
+}
+footer .top-btn {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #1C212D;
+}
+footer .top-btn::before {
+  content: "";
+  top: 35px;
+  left: -15px;
+  width: 20px;
+  height: 20px;
+  background-color: #363b44;
+  position: absolute;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -10px 0 0 #1c212d;
+}
+footer .top-btn::after {
+  content: "";
+  top: 35px;
+  right: -15px;
+  width: 20px;
+  height: 20px;
+  background-color: #363b44;
+  position: absolute;
+  border-top-left-radius: 20px;
+  box-shadow: 0 -10px 0 0 #1c212d;
+}
+footer .top-btn:hover {
+  background: #308D45;
+}
+footer .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+footer .container p {
+  color: #EFEFEF;
+  text-align: center;
+}
+footer .container p:first-of-type span {
+  color: indianred;
+}
+footer .container ul {
+  display: flex;
+}
+footer .container ul li:first-of-type {
+  margin-right: 10px;
+}
+footer .container ul li a {
+  color: #EFEFEF;
+  margin-right: 10px;
 }/*# sourceMappingURL=main.css.map */
