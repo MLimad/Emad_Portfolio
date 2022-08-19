@@ -367,7 +367,7 @@ template {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: #363B44;
+  background-color: #308D45;
   padding: 15px 35px;
   display: block;
   margin: 20px auto;
@@ -592,7 +592,6 @@ header .container nav ul li a {
   max-width: 500px;
 }
 .about .container .text p:last-of-type {
-  color: #308D45;
   font-weight: bold;
   text-transform: capitalize;
 }
@@ -605,7 +604,7 @@ header .container nav ul li a {
 }
 .about .container .text .media li a {
   font-size: 1.7rem;
-  color: #00B3B8;
+  color: #308D45;
   transition: color 0.4s linear;
 }
 .about .container .text .media li a:hover {
@@ -633,7 +632,7 @@ header .container nav ul li a {
   gap: 30px;
 }
 .skills .container .box {
-  padding: 30px;
+  padding: 30px 0 0;
   background-color: #363B44;
   text-align: center;
   border-radius: 5px;
@@ -681,6 +680,19 @@ header .container nav ul li a {
 }
 .skills .container .box ul li {
   font-size: 4rem;
+}
+.skills .container .box .details {
+  color: #EFEFEF;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  background: #308D45;
+  width: 100%;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.skills .container .box .details:hover {
+  text-decoration: underline;
 }
 
 .projects {

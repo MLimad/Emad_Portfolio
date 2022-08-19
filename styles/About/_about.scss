@@ -40,7 +40,6 @@
                 max-width: 500px;
             }
             p:last-of-type{
-                color: $emphasis-color;
                 font-weight: bold;
                 text-transform: capitalize;
             }
@@ -51,7 +50,7 @@
                     margin-right: 15px;
                     a{
                         font-size: 1.7rem;
-                        color: $light-color;
+                        color: $emphasis-color;
                         transition: color .4s linear;
                         &:hover{
                             color: $alt-light-color;
