@@ -805,6 +805,7 @@ footer .top-btn {
   justify-content: center;
   align-items: center;
   border: 5px solid #1C212D;
+  background-color: #308D45;
 }
 footer .top-btn::before {
   content: "";
@@ -829,7 +830,7 @@ footer .top-btn::after {
   box-shadow: 0 -10px 0 0 #1c212d;
 }
 footer .top-btn:hover {
-  background: #308D45;
+  background: #363B44;
 }
 footer .container {
   display: grid;

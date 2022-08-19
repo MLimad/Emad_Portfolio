@@ -12,15 +12,11 @@ footer{
         height: 60px;
         padding: 0;
         border-radius: 50%;
-        // font-size: 20px;
-        // width: 200px;
-        // height: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
         border: 5px solid $dark-color;
-        // border-top-left-radius: 100px;
-        // border-top-right-radius: 100px;
+        background-color: $emphasis-color;
         &::before{
              
                 content: "";
@@ -49,7 +45,7 @@ footer{
         }
         
         &:hover{
-            background: $emphasis-color;
+            background: $alt-dark-color;
         }
     }
     .container{
