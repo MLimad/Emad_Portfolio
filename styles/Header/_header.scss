@@ -35,7 +35,7 @@ header{
                     height: 100%;
 
                     &:hover{
-                        background-color: $alt-dark-color;
+                        background-color: rgba(255, 255, 255, 0.1);
                     }
                     &:hover a,&:hover i{
                         color: $alt-light-color;
