@@ -455,9 +455,9 @@ header .container nav ul li::before {
   width: 0%;
   height: 2px;
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
-  background-color: #EFEFEF;
+  background-color: #308D45;
   transition: 0.3s linear;
 }
 header .container nav ul li a {
