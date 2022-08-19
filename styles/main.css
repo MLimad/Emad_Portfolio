@@ -760,7 +760,7 @@ header .container nav ul li a {
   width: 80px;
   height: 4px;
   border-radius: 4px;
-  background-color: #EFEFEF;
+  background-color: #308D45;
 }
 .contact .container .text p {
   max-width: 400px;
@@ -777,6 +777,7 @@ header .container nav ul li a {
 .contact .container .text .address li i {
   font-size: 1.5rem;
   margin-right: 10px;
+  color: #308D45;
 }
 .contact .container .form form {
   display: flex;
