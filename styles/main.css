@@ -405,7 +405,7 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #363B44;
+  background-color: #363B44;
 }
 header .container {
   display: flex;
